@@ -1,4 +1,22 @@
-a.navbar-brand:visited, a.navbar-brand  {
+body {
+  padding-bottom: 50px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+section h1 {
+  padding: 0 0 30px 0;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #3c3c3c 0px, #222 100%);
+  color: #9d9d9d;
+  margin: 10px 0;
+}
+
+a.navbar-brand:visited, a.navbar-brand:link  {
   color: #FF8118;
   font-family: 'Bangers', cursive;
   font-size: 40px;
@@ -13,10 +31,3 @@ a.navbar-brand:visited, a.navbar-brand  {
   font-size: 16px;
 }
 
-section {
-  padding: 30px 0;
-}
-
-section h1 {
-  padding: 0 0 30px 0;
-}
