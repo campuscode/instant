@@ -12,3 +12,11 @@ a.navbar-brand:visited, a.navbar-brand  {
 .media-body >  h2.media-heading {
   font-size: 16px;
 }
+
+section {
+  padding: 30px 0;
+}
+
+section h1 {
+  padding: 0 0 30px 0;
+}
