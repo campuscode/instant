@@ -1,4 +1,14 @@
+a.navbar-brand:visited, a.navbar-brand  {
+  color: #FF8118;
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   min-width: 100%;
   height: 500px;
+}
+
+.media-body >  h2.media-heading {
+  font-size: 16px;
 }
