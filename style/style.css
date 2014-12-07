@@ -1,5 +1,8 @@
 body {
+  position: relative;
   padding-top: 50px;
+  padding-bottom: 60px;
+  min-height: 100%;
 }
 
 section {
@@ -10,11 +13,17 @@ section h1 {
   padding: 0 0 30px 0;
 }
 
-footer {
-  background-image: linear-gradient(to bottom, #3c3c3c 0px, #222 100%);
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0 0 0;
+  /* Set the fixed height of the footer here */
   color: #9d9d9d;
-  margin: 10px 0;
+  height: 60px;
+  background-image: linear-gradient(to bottom, #3c3c3c 0px, #222 100%);
 }
+
 
 a.navbar-brand:visited, a.navbar-brand:link  {
   color: #FF8118;
